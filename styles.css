@@ -54,13 +54,13 @@ body {
 }
 #banner-title {
   font-family: 'Azonix', sans-serif;
-  color:#7f1774;
-  font-size: 16px;
+  color:#FFFFFF;
+  font-size: 22px;
 }
 #banner-subtitle {
   font-family: 'Azonix', sans-serif;
   color: #e364d5;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 /* Styles for table */
