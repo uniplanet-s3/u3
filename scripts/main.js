@@ -397,8 +397,8 @@ function removeRankedTrainee(trainee) {
   return false;
 }
 
-const currentURL = "https://uniplanet-s3.github.io/";
-// Serializes the ranking into a string and appends that to the current URL
+const current = "https://uniplanet-s3.github.io/Uniplanet-S3-Ranker/";
+// Serializes the ranking into a string and appends that to the current 
 function generateShareLink() {
   let shareCode = ranking.map(function (trainee) {
     let twoCharID = ("0" + trainee.id).slice(-2); // adds a zero to front of digit if necessary e.g 1 --> 01
@@ -406,7 +406,7 @@ function generateShareLink() {
   }).join("");
   console.log(shareCode);
   shareCode = btoa(shareCode);
-  shareURL = currentURL + "?r=" + shareCode;
+  share = current + "?r=" + shareCode;
   showShareLink(shareURL);
 }
 
